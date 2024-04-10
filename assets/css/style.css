@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main {
+    width: 80%; /* Ajusta el ancho del contenedor principal */
+    max-width: 1200px; /* Establece un ancho máximo para evitar que el contenido se extienda demasiado */
+    margin: 0 auto; /* Centra el contenedor principal en la página */
+    background-color: #f0f0f0; /* Cambia el color de fondo principal */
+    color: #333; /* Cambia el color del texto principal */
+  }
+  
+  .content {
+    width: 100%; /* Ajusta el ancho del contenedor interno para que ocupe todo el ancho disponible */
+    max-width: 800px; /* Establece un ancho máximo para el contenido interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd; /* Cambia el color de fondo del contenido */
+    padding: 1rem 2rem;
+    border-radius: 12px;
+  }
+  
+  h1 {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    border-top: 2px solid #999; /* Cambia el color del borde superior */
+    border-bottom: 2px solid #999; /* Cambia el color del borde inferior */
+  }
+  
+  #grafico {
+    margin: 1rem 0;
+    background-color: #fff;
+    width: 100%; /* Ajusta el ancho del gráfico para que ocupe todo el ancho disponible */
+    max-width: 800px; /* Establece un ancho máximo para el gráfico */
+    padding: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    margin: 1rem 0;
+    width: 100%; /* Ajusta el ancho del botón */
+    max-width: 400px; /* Establece un ancho máximo para el botón */
+    color: #fff;
+    background-color: #007bff; /* Cambia el color de fondo del botón */
+    border-color: #007bff; /* Cambia el color del borde del botón */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el cursor sobre él */
+    border-color: #0056b3; /* Cambia el color del borde del botón al pasar el cursor sobre él */
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%; /* Ajusta el ancho de los elementos de entrada y selección */
+    max-width: 400px; /* Establece un ancho máximo para evitar que los elementos se extiendan demasiado */
+    margin-bottom: 1rem;
+  }
